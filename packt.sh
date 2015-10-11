@@ -2,7 +2,8 @@
 
 # Packt daily free e-book claim & download
 
-source "packt.cfg"
+#put apsolute path to pack.cfg if it will be used as cronjob
+source "/apsolute_path_/packt.cfg"
 
 function log {
     echo "$(date '+%d.%m.%Y. %H:%M:%S') $1" >> "$log"
